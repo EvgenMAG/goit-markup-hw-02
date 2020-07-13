@@ -3,26 +3,43 @@
 /* акцент  #2196F3 */
 /* вторичный цвет фона #F5F4FA */
 /* цвет фона подвала #2F303A */
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --acent-color: #2196f3;
+  --main-bg-color: #ffffff;
+}
+
 .page {
-  background-color: #ffffff;
-  color: #212121;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
 }
 /* Logo */
 .logo {
+}
+.logo-part1 {
+  color: #2196f3;
+}
+.logo-part2 {
+  color: var(--main-text-color);
 }
 /* navigation */
 .list {
   list-style: none;
 }
 .site-nav .link {
-  color: #212121;
+  color: var(--main-text-color);
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: #2196f3;
+.site-nav .link.current {
+  color: var(--acent-color);
 }
+
 .contact-nav .link {
-  color: #757575;
+  color: var(--secondary-text-color);
+}
+.header .link:hover,
+.header .link:focus {
+  color: var(--acent-color);
 }
 
 /* Hero */
@@ -31,5 +48,18 @@
 }
 /* Section */
 .section-title {
-  color: #991616;
+  color: var(--main-text-color);
 }
+/* Наши фишки */
+.list-benefits p {
+  color: var(--secondary-text-color);
+}
+
+/* Button */
+.button {
+  background-color: var(--acent-color);
+  color: #ffffff;
+}
+
+/* Styles Portfolio */
+/* menu-portfolio */
