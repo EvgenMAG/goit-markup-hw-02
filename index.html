@@ -10,10 +10,10 @@
     <!--Шапка сайт-->
     <header class="header">
       <nav>
-        <a href="./index.html" class="logo">
-          <span class="logo-part1">Web</span>
-          <span class="logo-part2">Studio</span>
-        </a>
+      <a href="./index.html" class="logo">
+        <span class="logo-blue">Web</span>
+        <span class="logo-black">Studio</span>
+      </a>
         <ul class="site-nav list">
           <li>
             <a href="" class="link current">Студия</a>
@@ -55,7 +55,7 @@
               <img src="./img-main/antenna1.svg" alt="антена" />
             </a>
             <h3>Внимание к деталям</h3>
-            <p>
+            <p class="benefits-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
@@ -65,7 +65,7 @@
               <img src="./img-main/clock1.svg" alt="часы" />
             </a>
             <h3>Пунктуальность</h3>
-            <p>
+            <p class="benefits-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
@@ -75,7 +75,7 @@
               <img src="./img-main/diagram1.svg" alt="диаграмма" />
             </a>
             <h3>Планирование</h3>
-            <p>
+            <p class="benefits-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
@@ -83,7 +83,7 @@
           <li>
             <img src="./img-main/astronaut1.svg" alt="астронавт" />
             <h3>Современные технологии</h3>
-            <p>
+            <p class="benefits-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -115,13 +115,13 @@
         </ul>
       </section>
       <!--Наша команда-->
-      <section class="section">
+      <section class="section bg">
         <h2 class="section-title">Наша команда</h2>
         <ul class="our-team list">
           <li>
             <img src="./img-main/kolya.jpg" alt="фото" width="270" />
             <h3>Николай Кучеренко</h3>
-            <p lang="eu">Product Designer</p>
+            <p lang="eu" class="team-text">Product Designer</p>
             <ul class="social-link list">
               <li><a href="" aria-label="Instagram">Инста</a></li>
               <li><a href="" aria-label="Twitter">Твиттер</a></li>
@@ -133,7 +133,7 @@
           <li>
             <img src="./img-main/olga.jpg" alt="фото" width="270" />
             <h3>Ольга Иванова</h3>
-            <p lang="eu">Frontend Developer</p>
+            <p lang="eu" class="team-text">Frontend Developer</p>
             <ul class="social-link list">
               <li><a href="" aria-label="Instagram">Инста</a></li>
               <li><a href="" aria-label="Twitter">Твиттер</a></li>
@@ -144,7 +144,7 @@
           <li>
             <img src="./img-main/andre.jpg" alt="фото" width="270" />
             <h3>Андрей Шевченко</h3>
-            <p lang="eu">Marketing</p>
+            <p lang="eu" class="team-text">Marketing</p>
             <ul class="social-link list">
               <li><a href="" aria-label="Instagram">Инста</a></li>
               <li><a href="" aria-label="Twitter">Твиттер</a></li>
@@ -155,7 +155,7 @@
           <li>
             <img src="./img-main/ivan.jpg" alt="фото" width="270" />
             <h3>Иван Николаев</h3>
-            <p lang="eu">UI Designer</p>
+            <p lang="eu" class="team-text">UI Designer</p>
             <ul class="social-link list">
               <li><a href="" aria-label="Instagram">Инста</a></li>
               <li><a href="" aria-label="Twitter">Твиттер</a></li>
@@ -168,10 +168,10 @@
       <!--Постоянные клиенты-->
       <section class="section">
         <h2 class="section-title">Постоянные клиенты</h2>
-        <ul>
+        <ul class="section list">
           <li>
             <a href="">
-              <img src="./img-main/logo1.svg" alt="лого компании" />
+              <img src="./img-main/logo1.svg"  alt="лого компании" />
             </a>
           </li>
           <li>
@@ -185,7 +185,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a href=""class="clients-list">
               <img src="./img-main/logo4.svg" alt="лого компании" />
             </a>
           </li>
@@ -203,26 +203,30 @@
       </section>
     </main>
     <!--Футер-->
-    <footer>
-      <div>
-        <a href="./index.html"> <span>Web</span> <span>Studio</span> </a>
-        <address>
-          <ul>
-            <li>г. Киев, пр-т Леси Украинки, 26</li>
-            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</</li>
-            <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-          </ul>
-        </address>
-      </div>
-      <div>
-        <b>присоединяйтесь</b>
-        <ul>
-          <li><a href="" aria-label="Instagram">Инста</a></li>
-          <li><a href="" aria-label="Twitter">Твиттер</a></li>
-          <li><a href="" aria-label="Facebook">Фейсбук</a></li>
-          <li><a href="" aria-label="Linkedin">Линкдин</a></li>
+  <footer class="foot-style">
+    <div>
+      <a href="./index.html" class="logo">
+        <span class="logo-blue">Web</span>
+        <span class="logo-white">Studio</span>
+      </a>
+      <address>
+        <ul class="list">
+          <li>г. Киев, пр-т Леси Украинки, 26</li>
+          <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</< /li>
+          <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
-      </div>
-    </footer>
+      </address>
+    </div>
+    <div>
+      <b>присоединяйтесь</b>
+      <ul class="list">
+        <li><a href="" aria-label="Instagram">Инста</a></li>
+        <li><a href="" aria-label="Twitter">Твиттер</a></li>
+        <li><a href="" aria-label="Facebook">Фейсбук</a></li>
+        <li><a href="" aria-label="Linkedin">Линкдин</a></li>
+      </ul>
+    </div>
+    <div><a href="" class="button">Подписаться</a></div>
+  </footer>
   </body>
 </html>

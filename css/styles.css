@@ -17,11 +17,14 @@
 /* Logo */
 .logo {
 }
-.logo-part1 {
-  color: #2196f3;
+.logo-blue {
+  color: var(--acent-color);
 }
-.logo-part2 {
+.logo-black {
   color: var(--main-text-color);
+}
+.logo-white {
+  color: var(--main-bg-color);
 }
 /* navigation */
 .list {
@@ -44,22 +47,48 @@
 
 /* Hero */
 .hero-title {
-  color: #ffffff;
 }
 /* Section */
 .section-title {
   color: var(--main-text-color);
 }
 /* Наши фишки */
-.list-benefits p {
+.benefits-text {
   color: var(--secondary-text-color);
 }
+/* Наша команда */
+.bg {
+  background-color: #f5f4fa;
+}
+.team-text {
+  color: var(--secondary-text-color);
+}
+/* Постоянные клиенты */
 
 /* Button */
 .button {
   background-color: var(--acent-color);
   color: #ffffff;
 }
+/* Footer */
+.foot-style {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.foot-style .link {
+  color: rgba(255, 255, 255, 0.6);
+}
 
 /* Styles Portfolio */
 /* menu-portfolio */
+.menu-nav .menu-title {
+  color: var(--main-text-color);
+}
+.menu-title:hover,
+.menu-title:focus {
+  color: var(--acent-color);
+}
+/* Портфолио продуктов */
+.work-text {
+  color: var(--secondary-text-color);
+}
