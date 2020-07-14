@@ -71,18 +71,57 @@
 /* Section */
 .section-title {
   color: var(--main-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
 }
 /* Наши фишки */
 .benefits-text {
   color: var(--secondary-text-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+/* Чем мы занимаемся */
+.job-title h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* Наша команда */
 .bg {
   background-color: #f5f4fa;
 }
+.our-team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
 .team-text {
   color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
 }
+.social-link.list a:hover,
+.social-link.list a:focus {
+  color: var(--acent-color);
+}
+
 /* Постоянные клиенты */
 
 /* Button */
@@ -93,21 +132,51 @@
   font-size: 16px;
   line-height: 1.9;
 }
+
+/* a NONE */
+
+a {
+  text-decoration: none;
+}
+
 /* Footer */
+
 .foot-style {
   background-color: #2f303a;
-  color: #ffffff;
+  color: white;
 }
+
+.list .adr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
 .foot-style .link {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+div > b {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 /* Styles Portfolio */
-/* menu-portfolio */
+
+/* menu */
 .nav-titel {
   color: var(--main-text-color);
   background-color: #f5f4fa;
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
 .nav-titel:hover {
   color: var(--main-bg-color);
