@@ -13,9 +13,15 @@
 .page {
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 /* Logo */
 .logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
 }
 .logo-blue {
   color: var(--acent-color);
@@ -32,6 +38,10 @@
 }
 .site-nav .link {
   color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link.current {
   color: var(--acent-color);
@@ -39,6 +49,10 @@
 
 .contact-nav .link {
   color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .header .link:hover,
 .header .link:focus {
@@ -47,6 +61,12 @@
 
 /* Hero */
 .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 /* Section */
 .section-title {
@@ -69,6 +89,9 @@
 .button {
   background-color: var(--acent-color);
   color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
 }
 /* Footer */
 .foot-style {
@@ -81,14 +104,22 @@
 
 /* Styles Portfolio */
 /* menu-portfolio */
-.menu-nav .menu-title {
+.nav-titel {
   color: var(--main-text-color);
+  background-color: #f5f4fa;
+  font-family: inherit;
 }
-.menu-title:hover,
-.menu-title:focus {
-  color: var(--acent-color);
+.nav-titel:hover {
+  color: var(--main-bg-color);
+  background-color: var(--acent-color);
 }
 /* Портфолио продуктов */
 .work-text {
   color: var(--secondary-text-color);
+}
+.work-titel {
+  color: var(--main-text-color);
+}
+p > span {
+  color: var(--main-text-color);
 }
