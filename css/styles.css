@@ -185,10 +185,18 @@ div > b {
 /* Портфолио продуктов */
 .work-text {
   color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
 .work-titel {
   color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 p > span {
   color: var(--main-text-color);
+  font-size: 18px;
+  line-height: 1.56;
 }
