@@ -178,6 +178,7 @@ div > b {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  cursor: pointer;
 }
 .nav-titel:hover {
   color: var(--main-bg-color);
